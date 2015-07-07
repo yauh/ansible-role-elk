@@ -15,3 +15,5 @@ galaxy_info:
    - monitoring
 dependencies:
   - { role: yauh.java8 }
+  - { role: yauh.elasticsearch }
+  - { role: yauh.nginx }

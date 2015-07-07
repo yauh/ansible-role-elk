@@ -1,5 +1,5 @@
 # yauh.elk
-Ansible role to install Elasticsearch, Logstash, and Kibana
+Ansible (meta) role to install Elasticsearch, Logstash, and Kibana
 
 ## Requirements
 SSH access to the remote machine Java
