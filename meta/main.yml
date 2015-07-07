@@ -11,11 +11,7 @@ galaxy_info:
         - trusty
         - utopic
         - vivid
-    - name: Debian
-      versions:
-        - wheezy
-        - squeeze
   categories:
    - monitoring
 dependencies:
-  - { role: yauh.java }
+  - { role: yauh.java8 }
