@@ -1,5 +1,5 @@
 # yauh.elk
-Ansible (meta) role to install Elasticsearch, Logstash, and Kibana
+Ansible (meta) role for setting up Elasticsearch, Logstash, and Kibana
 
 ## Requirements
 SSH access to the remote machine Java
@@ -11,7 +11,9 @@ SSH access to the remote machine Java
 ```
 
 ## Dependencies
-yauh.java8
+- yauh.elasticsearch
+- yauh.logstash
+- yauh.kibana
 
 ## Example Playbook
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:

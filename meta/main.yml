@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Stephan Hochhaus
-  description: Install Elasticsearch, Logstash, and Kibana
+  description: Set up Elasticsearch, Logstash, and Kibana
   company: freelance
   license: BSD
   min_ansible_version: 1.7
